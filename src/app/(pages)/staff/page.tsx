@@ -1,12 +1,10 @@
 import type { Metadata } from "next"
-import styles from "./about.module.css"
 
 export const metadata: Metadata = {
-    title: "About Page",
-    description: ""
+    title: "Staff"
 }
 
-export default function AboutPage(){
+export default function StaffPage(){
     return(
         <>
         

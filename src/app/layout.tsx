@@ -11,8 +11,8 @@ const primaryFont = Roboto({ subsets: ['latin'], weight: ["100", "300", "400", "
 const secondaryFont = Oswald({ subsets: ['latin'], weight: ["300", "500", "700"], display: "swap", variable: "--secondary-font" })
 
 export const metadata: Metadata = {
-  title: 'Template Site Title',
-  description: 'Template Site Desc'
+  title: 'Cartersville Outreach Men\'s Center',
+  description: 'God-Centered Men\'s Transitional Center Transforming Lives '
 }
 
 export default function RootLayout({

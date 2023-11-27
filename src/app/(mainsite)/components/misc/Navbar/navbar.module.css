@@ -1,10 +1,10 @@
 .mainNav{
-    position: fixed;
+    position: relative;
     top:0;
     left:0;
     width: 92%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     padding: 0.4vw 4%;
     background-color: white;
@@ -25,7 +25,7 @@
     font-size: 2rem;
 }
 .logoImg{
-    width: 4vw;
+    width: 0;
     height: 4vw;
     object-fit: contain;
     object-position: center;
@@ -34,6 +34,8 @@
 
 .links{
     list-style-type: none;
+    display: inline-flex;
+    align-items: center;
 }
 
 .links a, .dropdownLink{
@@ -66,7 +68,7 @@
 .navLink{
     transition: color 0.3s;
     cursor: pointer;
-    padding-bottom: 1.4vw;
+    /* padding-bottom: 1.4vw; */
 }
 
 .navLink.active{
@@ -124,8 +126,8 @@
 
 .links a.cta{
     background-color: var(--primary-color);
-    padding: 0.6vw 1vw;
-    border-radius: 999px;
+    padding: 0.4vw 1.5vw;
+    border-radius: 10px;
     transition: filter 0.3s;
     color: white;
 }
@@ -136,6 +138,7 @@
 
 .cta span{
     font-weight: 600;
+    padding-left: 0.2vw;
 }
 
 /* MEDIUM LAPTOP STYLES */
@@ -151,6 +154,7 @@
     .mainNav{
         width: 96%;
         padding: 0.6vw 2%;
+        position: fixed;
     }
     .logo span{
         padding-left: 0.8vw;
@@ -195,8 +199,12 @@
         font-size: 2.2rem;
     }
     .logoImg{
-        width: 6vw;
+        width: 0;
         height: 6vw;
+    }
+
+    .links{
+        display: block;
     }
     
     .links a{
@@ -299,12 +307,15 @@
     
     .links a.cta{
         background-color: var(--primary-color);
-        padding: 1vw 2vw;
-        border-radius: 999px;
+        padding: 0.8vw 2.5vw;
+        border-radius: 8px;
         transition: filter 0.3s;
         color: white;
         display: inline-flex;
         margin: 1.5vw 0;
+    }
+    .links a.cta span{
+        padding-left: 0.6vw;
     }
     .links a.cta svg{
         width: 3vw;
@@ -317,10 +328,10 @@
     
     .logo span{
         padding-left: 2vw;
-        font-size: 2.2rem;
+        font-size: 1.5rem;
     }
     .logoImg{
-        width: 10vw;
+        width: 0;
         height: 10vw;
     }
     
@@ -334,7 +345,7 @@
     }
     
     .content{
-        width: 60%;
+        width: 50%;
         padding: 4vw;
     }
     .navLink{
@@ -371,15 +382,18 @@
     }
 
     .links a.cta{
-        padding: 2vw 4vw;
-        border-radius: 999px;
+        padding: 1.5vw 4vw;
+        border-radius: 6px;
         transition: filter 0.3s;
         color: white;
         display: inline-flex;
         margin: 2.5vw 0 0 0;
     }
+    .links a.cta span{
+        padding-left: 1.4vw;
+    }
     .links a.cta svg{
-        width: 6vw;
-        height: 6vw;;
+        width: 5vw;
+        height: 5vw;;
     }
 }

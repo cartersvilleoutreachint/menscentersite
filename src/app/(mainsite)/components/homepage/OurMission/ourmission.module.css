@@ -1,0 +1,55 @@
+.ourMission{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8vw 4vw;
+}
+
+.bgImg{
+    height: 25vw;
+    width: 25vw;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: -8px 8px 8px rgba(0,0,0,0.3);
+}
+
+.content{
+    margin-left: 4vw;
+}
+
+.cross{
+    position: absolute;
+    right: 2vw;
+    object-fit: contain;
+    height: 90%;
+    top: 5%;
+    width: 50vw;
+    z-index: -1;
+    opacity: 0.05;
+    object-position: right center;
+}
+
+.content h1{
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 2vw;
+    position: relative;
+}
+
+.content h1::after{
+    position: absolute;
+    content: "";
+    top: 105%;
+    left:0;
+    background-color: var(--primary-color);
+    height: 4px;
+    width: 40%;
+}
+
+.content p{
+    width: 30vw;
+    font-size: 1.2rem;
+    line-height: 250%;
+}

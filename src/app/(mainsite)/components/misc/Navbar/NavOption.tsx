@@ -16,7 +16,7 @@ interface optionProps {
     //@ts-ignore
     <Link ref={parentRef} href={props.url} className={styles.navLink}>
               <li>
-                <InlineIcon icon={props.iconifyIcon} width="50px" height="50px" />
+                {/* <InlineIcon icon={props.iconifyIcon} width="50px" height="50px" /> */}
                 <span>{props.title}</span>
               </li>
             </Link>
