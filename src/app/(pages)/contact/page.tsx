@@ -1,15 +1,14 @@
 import type { Metadata } from "next"
-import styles from "./contact.module.css"
+import ContactContent from "@/app/(mainsite)/components/contactpage/ContactContent"
 
 export const metadata: Metadata = {
-    title: "Contact Page",
-    description: ""
+    title: "Contact Us"
 }
 
 export default function ContactPage(){
     return(
         <>
-        
+            <ContactContent />
         </>
     )
 }

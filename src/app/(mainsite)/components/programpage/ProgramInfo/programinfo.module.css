@@ -1,0 +1,41 @@
+.programInfo{
+    padding: 8vw 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.programInfo h4{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.programInfo h1{
+    color: var(--primary-text-color);
+    font-size: 5rem;
+    font-family: var(--secondary-font);
+    line-height: 100%;
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    position: relative;
+}
+
+.programInfo h1::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    height: 6px;
+    left: 10%;
+    bottom: 0;
+    background-color: var(--primary-color);
+}
+
+.programInfo p{
+    margin-top: 1vw;
+    width: 35%;
+    font-size: 1.2rem;
+    line-height: 250%;
+}

@@ -1,5 +1,5 @@
 {
-  "name": "multi-page-pw-template",
+  "name": "page-template-v1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "updatemain": "echo 'Enter Commit Msg' && read msg && git checkout main && git add -A && git commit -m \"$msg\" && git push origin main"
+    "updatemain": "echo 'Enter Commit Msg:' && read msg && git checkout main && git add -A && git commit -m \"$msg\" && git push origin main"
   },
   "dependencies": {
     "@iconify/react": "^4.1.1",
