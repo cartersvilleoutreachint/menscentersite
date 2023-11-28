@@ -39,3 +39,47 @@
     font-size: 1.2rem;
     line-height: 250%;
 }
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .programInfo{
+        min-height: 60vh;
+        padding: 9vw 0;
+    }
+    .programInfo h1{
+        padding-bottom: 2vw;
+        margin-bottom: 2vw;
+    }
+    
+    .programInfo h1::after{
+        width: 80%;
+        bottom: -6px;
+    }
+    
+    .programInfo p{
+        margin-top: 2vw;
+        width: 60%;
+    }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .programInfo{
+        min-height: 60vh;
+        padding: 15vw 0;
+    }
+    .programInfo h1{
+        padding-bottom: 4vw;
+        margin-bottom: 4vw;
+    }
+    
+    .programInfo h1::after{
+        width: 80%;
+        bottom: -6px;
+    }
+    
+    .programInfo p{
+        margin-top: 4vw;
+        width: 80%;
+    }
+}

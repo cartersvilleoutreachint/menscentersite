@@ -130,7 +130,10 @@
     }
     
     .input-wrapper{
-        margin: 1vw;
+        margin: 1.5vw 1vw;
+    }
+    #estimateForm textarea{
+        height: 8vw;
     }
     #estimateForm input, #estimateForm textarea{
         padding-top: 1.5vw;
@@ -146,6 +149,7 @@
     #estimateForm input[type="submit"]{
         font-size: 1.8rem;
     }
+    
 }
  
 /* MOBILE STYLES */
@@ -172,8 +176,10 @@
         padding-bottom: 8vw;
     }
     .input-wrapper{
-        margin-top: 2vw;
-        margin-bottom: 2vw;
+        margin: 3vw 1vw;
+    }
+    #estimateForm textarea{
+        height: 12vw;
     }
     #estimateForm input, #estimateForm textarea{
         padding-top: 2.2vw;
