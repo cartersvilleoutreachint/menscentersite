@@ -53,19 +53,7 @@ body{
   z-index: -2;
 }
 
-.main-cta{
-  background-color: var(--primary-color);
-  color: var(--secondary-text-color);
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  padding: 0.2vw 2vw;
-  font-size: 1.2rem;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  cursor: pointer;
-}
+
 
 .main-cta::after{
   content: "";
@@ -91,6 +79,20 @@ body{
   width: 2vw;
   height: 2vw;
   object-fit: cover;
+}
+
+.main-cta{
+  background-color: var(--primary-color);
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2vw 2vw;
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .center{
@@ -124,20 +126,45 @@ body{
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
+  body{
+    padding-top: 8vw;
+  }
   :root{
       font-size: 12px;
   }
   .tablet{
     display: initial !important;
   }
+
+  .main-cta svg{
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+  
+  .main-cta{
+    padding: 0.6vw 3vw;
+    font-size: 1.4rem;
+  }
 }
 
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
+  body{
+    padding-top: 15vw;
+  }
   :root{
       font-size: 10px;
   }
   .mobile{
     display: initial !important;
+  }
+  .main-cta svg{
+    width: 6.5vw;
+    height: 6.5vw;
+  }
+  
+  .main-cta{
+    padding: 0.8vw 5vw;
+    font-size: 1.4rem;
   }
 }

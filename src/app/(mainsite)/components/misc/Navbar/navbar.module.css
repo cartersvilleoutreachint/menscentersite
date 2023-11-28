@@ -193,6 +193,7 @@
         width: 90%;
         padding: 1vw 5%;
         align-items: center;
+        position: fixed;
     }
     
     .logo span{

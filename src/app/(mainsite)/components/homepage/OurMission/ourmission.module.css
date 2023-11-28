@@ -53,3 +53,80 @@
     font-size: 1.2rem;
     line-height: 250%;
 }
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+ 
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .ourMission{
+        padding: 9vw 5vw;
+    }
+    
+    .bgImg{
+        height: 40vw;
+        width: 40vw;
+    }
+    
+    .content{
+        margin-left: 5vw;
+    }
+    
+    .cross{
+        right: 0;
+        top: 5%;
+        width: 90vw;
+    }
+    
+    .content h1{
+        margin-bottom: 3vw;
+    }
+    
+    
+    .content p{
+        width: 45vw;
+    }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .ourMission{
+        padding: 9vw 5vw;
+        flex-direction: column;
+    }
+    
+    .bgImg{
+        height: 60vw;
+        width: 60vw;
+    }
+    
+    .content{
+        margin-left: 5vw;
+    }
+    
+    .cross{
+        right: 0;
+        top: 5%;
+        width: 90vw;
+    }
+    
+    .content h1{
+        margin-bottom: 3vw;
+        margin-top: 4vw;
+    }
+    .content h1::after{
+        top: 105%;
+        left:0;
+        background-color: var(--primary-color);
+        height: 4px;
+        width: 80%;
+    }
+    
+    
+    .content p{
+        margin-top: 6vw;
+        width: 80vw;
+    }
+}
