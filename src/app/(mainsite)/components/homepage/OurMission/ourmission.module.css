@@ -103,12 +103,14 @@
     }
     
     .content{
-        margin-left: 5vw;
+        margin-left: 0;
     }
     
     .cross{
         right: 0;
-        top: 5%;
+        top: initial;
+        bottom: 5%;
+        object-position: center bottom;
         width: 90vw;
     }
     
