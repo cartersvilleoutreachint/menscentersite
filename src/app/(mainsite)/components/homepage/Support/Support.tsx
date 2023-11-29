@@ -9,7 +9,7 @@ export default function Support() {
         <h1 className={styles.ribbon}>Help support the community.</h1>
 
         <div className={styles.content}>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Your support enables us to create a godly environment where individuals seeking positive change find it in the transformative power of God. With your support, we can provide essential resources, counseling, and spiritual guidance, paving the way for men to rebuild their lives with faith as their cornerstone. Your donation isn't just financial; it's a contribution to the lasting transformation of individuals on the path to a brighter future.</p>
 
           <a href="https://paypal.com" target="_blank" className="main-cta"><InlineIcon style={{scale: 0.6}} icon="mdi:heart"/> Donate</a>
 
