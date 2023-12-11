@@ -19,12 +19,12 @@ Cartersville, GA 30121</div>
 
                 <div className={styles.contactItem}>
                     <span className={styles.itemTitle}>Email</span>
-                    <a href="mailto:example@gmail.com" className={styles.itemDesc}>Click to email</a>
+                    <a href="mailto:cartersvilleoutreachmenscenter@gmail.com" className={styles.itemDesc}>Click to email</a>
                 </div>
 
                 <div className={styles.contactItem}>
                     <span className={styles.itemTitle}>Phone</span>
-                    <a href="tel:0000000000" className={styles.itemDesc}>(000) 000-0000</a>
+                    <a href="tel:7062911197" className={styles.itemDesc}>(706) 291-1197</a>
                 </div>
             </aside>
 

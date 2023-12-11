@@ -30,6 +30,7 @@
 .teamMembersWrapper{
     display: inline-flex;
     width: 70%;
+    justify-content: center;
     flex-wrap: wrap;
     min-height: 80vh;
     position: relative;
@@ -42,6 +43,7 @@
     width: 28%;
     margin: 2vw 2.5%;
     color: var(--main-color);
+    white-space: pre-wrap;
 }
 
 .teamMember *{
