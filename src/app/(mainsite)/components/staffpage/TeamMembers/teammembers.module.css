@@ -88,6 +88,10 @@
     .teamMember *{
         margin: 0.4vw 0;
     }
+    .teamMember{
+        width: 45%;
+        margin: 2vw 2.5%;
+    }
     
     .img{
         width: 10vw;
@@ -111,7 +115,7 @@
     }
     .teamMembersSection h1{
         padding-bottom: 2.5vw;
-        margin-bottom: 4vw;
+        margin-bottom: 8vw;
     }
     
     .teamMembersSection h1::after{
@@ -123,8 +127,8 @@
     }
     
     .teamMember{
-        width: 45%;
-        margin: 2vw 2.5%;
+        width: 80%;
+        margin: 2vw 10%;
     }
     
     .teamMember *{
