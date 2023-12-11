@@ -57,14 +57,14 @@
         bottom: 2vw;
     }
     .header{
-        min-height: 80vh;
+        min-height: 120vw;
     }
 }
  
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
     .header{
-        min-height: 80vh;
+        min-height: 150vw;
     }
     .header h1{
         font-size: 4.5rem;

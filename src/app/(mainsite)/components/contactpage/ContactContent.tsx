@@ -24,7 +24,7 @@ Cartersville, GA 30121</div>
 
                 <div className={styles.contactItem}>
                     <span className={styles.itemTitle}>Phone</span>
-                    <a href="tel:7062911197" className={styles.itemDesc}>(706) 291-1197</a>
+                    <a href="tel:7707735950" className={styles.itemDesc}>(770) 773-5950</a>
                 </div>
             </aside>
 

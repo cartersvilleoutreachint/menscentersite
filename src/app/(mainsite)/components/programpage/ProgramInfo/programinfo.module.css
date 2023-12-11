@@ -50,7 +50,7 @@
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
     .programInfo{
-        min-height: 60vh;
+        min-height: 100vw;
         padding: 9vw 0;
     }
     .programInfo h1{
@@ -72,7 +72,7 @@
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
     .programInfo{
-        min-height: 60vh;
+        min-height: 120vw;
         padding: 15vw 0;
     }
     .programInfo h1{
