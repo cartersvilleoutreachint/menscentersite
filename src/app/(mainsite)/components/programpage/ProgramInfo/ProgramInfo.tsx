@@ -8,9 +8,7 @@ export default function ProgramInfo() {
         
         <h1>Our Program</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        <br /><br />
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p>To help guide these men into becoming productive members of the community and helping establish guidelines to help them manage their lives, homes, and everyday relationships that are built on a foundation of biblical principles and on the Lord Jesus Christ. <br /><br /> Our desire is to help these men with their mental, physical and spiritual needs, by providing them the opportunity to change their lives by having a personal relationship with Jesus Christ as their Lord and Savior.
         </p>
 
         <div style={{backgroundColor: "rgba(255,255,255,0.8)"}} className="shader"></div>

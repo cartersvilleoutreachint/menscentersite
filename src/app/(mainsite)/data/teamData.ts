@@ -1,7 +1,7 @@
 const teamData: teamMemberType[] = [
     {
         name: "Dean Minter",
-        imgSrc: "https://i.imgur.com/AooXRC8.png",
+        imgSrc: "https://i.imgur.com/FZAGQyT.jpg",
         role: "Center Director",
         description: `I am a retired Captain of the Bartow County Sheriff's Office with 34.5 years of law enforcement experience. During my tenure as a law enforcement officer, I have seen the effects that drugs, alcohol, and other readily available substances have on the human body, their financial status, their families, their communities, and their lives.
         
@@ -11,11 +11,17 @@ With my experience, training, knowledge, and the leadership of Jesus Christ and 
     },
     {
         name: "Tommy Williams",
-        imgSrc: "https://i.imgur.com/NbJTycw.png",
-        role: "Senior Pastor/Evangelist",
+        imgSrc: "https://i.imgur.com/LUckwy1.jpg",
+        role: "",
         description: `For over 30 years I have struggled with alcohol and drug addiction. I could never get free. I was in and out of jail most of my life. I have been to prison 3 times. During my last prison sentence, I cried out to God because I was broken from the loss of my first child. Jesus heard my cry. I made a promise to God; If he would heal my broken heart and reveal the truth to me about my son, I would read His word and I would do what it says. Let's just say, I got a hold of the word (Jesus), and the word got a hold of me. My life has never been the same since. I go into Bartow County Jail and preach to the men and women. I am also an ordained Pastor through Cartersville Outreach Ministries.
         
 Not only has God changed my life, but He has also changed my family's life. Hallelujah! God has blessed me with a beautiful, loving, God-fearing, Jesus loving wife named Kristy Williams. We are excited to see what is ahead.`
+    },
+    {
+        name: "Shaun Williams",
+        imgSrc: "https://i.imgur.com/JhDKBy5.jpg",
+        role: "",
+        description: "As the senior pastor of Cartersville Outreach Ministry and the Deputy Chaplain of the Bartow County Sheriff's Department, I have seen the power of God move to save, heal and deliver multitudes and restore the lives of many whom Satan has bound. Our mission is to proclaim the gospel across the nation and around the world."
     },
     {
         name: "David Bojczuk",
